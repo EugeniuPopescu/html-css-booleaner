@@ -1,0 +1,27 @@
+
+
+header {
+    background-image: url(../img/pattern.png);
+    background-color: cornflowerblue;
+    text-align: left;
+    height: 11rem;
+}
+
+header img {
+    width: 15rem;
+    padding-top: 4em;
+}
+
+
+
+.photo1 {
+    background-image: url(../img/monitor.jpg);
+    width: 15em;
+    height: 10em;
+}
+
+.photo2 {
+    background-image: url(../img/graph.jpg);
+    width: 15em;
+    height: 10em;
+}
