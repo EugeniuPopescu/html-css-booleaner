@@ -1,40 +1,68 @@
+* { /* tutti gli elementi hanno margin e padding 0 */
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width: 80%;
+    margin: 0;
+}
+
+.spacedContainer {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 header {
+    height: 100px;
     background-image: url(../img/pattern.png);
-    background-color: cornflowerblue;
-    text-align: left;
-    height: 11em;
+    background-color: #4ea0ff;
+    background-size: 30%;
 }
 
 header img {
-    width: 15em;
-    padding-top: 6em;
+    height: 50px;
+    margin-top: 40px;
 }
 
-h1 {
-    font-weight: 1500em;
+main {
+    padding-top: 16px;
+}
+
+main h1 {
+    font-size: 39px;
+    line-height: 42px;
+    margin: 0;
 }
 
 .text-grey {
     color: gray;
     margin-bottom: 2em;
+    margin: 0;
 }
 
-a {
+.date {
+    font-size: 12px;
+}
+
+p a {
     text-decoration: none;
-    color: aqua;
-    text-decoration: none;
+    color: #4ea0ff;
 }
 
-.descr1, .descr2 {
-    font-size: .8em;
+img {
+    margin: 16px 0 0 0; /* sopra destra sotto sinistra */
 }
 
-.yellow {
-    background-color: yellow;
+main figure {
+    margin: 16px 0
+}
+
+.paragraph {
+    margin: 16px 0;
+}
+
+.ul {
+    margin: 32px 16px;
 }
 
 table {
@@ -46,6 +74,10 @@ table {
 table thead {
     color: white;
     background-color: deepskyblue;
+}
+
+.wide-column {
+    width: 50%;
 }
 
 table .prima, .terza {
